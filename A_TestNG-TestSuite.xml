@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test suite">
+
+	<test name="My testcases" verbose="5">
+	                          <!-- Verbose - how much details needed in reports -->
+		
+		<classes>
+		
+		<class name="TestNG.A_SampleTestcases"> </class>
+	             <!-- fully qualified class name -->
+	    <class name="TestNG.B_NormalTestcase"/> 
+	    <class name="TestNG.C_PriorityTestcases"/>        
+	             
+						
+						
+						
+	 	</classes>
+		
+	</test>
+
+
+
+</suite>
